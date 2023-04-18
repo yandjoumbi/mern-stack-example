@@ -18,7 +18,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: webappdemo.azurecr.io/webappdemo/web-app:v1
+      - image: public.ecr.aws/v6n8a7u8/mern-image:latest
         name: webapp
         imagePullPolicy: Always
         resources: {}

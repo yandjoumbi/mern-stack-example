@@ -9,6 +9,7 @@ export default function CreateTask(props) {
         createTask(data).then(response => {
             props.taskCreated();
             e.target.reset();
+            console.log(response);
         });
     };
 
