@@ -1,4 +1,4 @@
-name: Maven CI/CD
+name: Mern CI/CD
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node: [10, 12, 14]
+        node: [14]
 
     steps:
     - name: Checkout 
